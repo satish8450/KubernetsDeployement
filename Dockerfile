@@ -1,4 +1,4 @@
-FROM openjdk 11.0.18
+FROM openjdk:11.0.18-jdk
 
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
